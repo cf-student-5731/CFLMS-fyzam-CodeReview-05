@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap')
+// font-family: 'Open Sans Condensed', sans-serif
+
+
+$my_font_family: 'Open Sans', sans-serif
+$my_light_color: #EAEAEA
+$my_bright_light_color: #FFFFFF
+$my_like_color: #32A23D
+$my_footer_background_color: #0F0F0F
+$my_movie_background_color: #181818
+$my_header_background_color: #000000
+$my_navbar_color: #454545
+$my_main_background_color: #1D2329
+
+
+.dropbtn
+	background-color: $my_navbar_color
+	color: $my_light_color
+	font-size: 1em
+	border: none
+	margin-right: 5vw
+	font-family: $my_font_family
+	font-weight: 700
+
+
+.dropdown-content
+	cursor: pointer
+	background-color: $my_footer_background_color
+	border-radius: 5%
+	line-height: 1em
+	display: none
+	position: absolute
+
+.dropdown-content p
+	font-family: 'Open Sans Condensed', sans-serif
+	text-align: left
+	font-weight: 400
+	font-size: 0.8em
+	line-height: 2em
+	color: $my_bright_light_color
+	text-decoration: none
+	display: block
+	
+.dropdown-content p:hover
+		background-color: $my_like_color
+
+.dropdown:hover .dropdown-content
+		display: block
+		

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #C71585;
+}
+
+header {
+  font-size: 3.5em;
+  color: #ffff33;
+  background-color: #b30000;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 0.5vw 0 1vw 0;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  font-size: 2em;
+  background-color: #53ff1a;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.2em;
+}
+
+nav a {
+  margin: 0 0 0 2vw;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1a8cff;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #1a8cff;
+  text-align: center;
+  margin: 2vw 0 3vw 0;
+}
+
+#main_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer {
+  font-size: 3em;
+  color: #ffff33;
+  background-color: #660066;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 0.5em 0 0.5em 0;
+  margin-top: 5vw;
+}
+
+.movie_wrapper {
+  width: 40%;
+  background-color: #bf00ff;
+  max-width: 500px;
+  min-width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2vw;
+}
+
+.movie_picture img {
+  width: 100%;
+  border-radius: 3%;
+  border: #1a8cff solid 0.1vw;
+}
+
+.movie_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin: 0.8vw 0.8vw 0 1.5vw;
+}
+
+.movie_name {
+  margin-bottom: 1vw;
+}
+
+.movie_name p {
+  color: #1a8cff;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.movie_description p {
+  color: #1a8cff;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.fa {
+  font-size: 1.5em;
+}
+
+.like_area {
+  color: #6600ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.likes {
+  text-align: center;
+  margin-left: 0.5vw;
+  font-size: 1.5em;
+  color: #ffff33;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  background-color: #6600ff;
+  line-height: 1.7em;
+  margin-bottom: 1vw;
+}
+
+.like_line {
+  margin: 0.5em 0.5em 0 0;
+}
+
+.dis_like_line {
+  margin: 0.5em 3em 0 0;
+}
+
+#drop_downs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  nav {
+    font-size: 1em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav a {
+    margin: 0 5vw 0 2vw;
+  }
+}
+/*# sourceMappingURL=messed_up_style.css.map */

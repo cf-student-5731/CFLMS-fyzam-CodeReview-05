@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+.dropbtn {
+  background-color: #454545;
+  color: #EAEAEA;
+  font-size: 1em;
+  border: none;
+  margin-right: 5vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.dropdown-content {
+  cursor: pointer;
+  background-color: #0F0F0F;
+  border-radius: 5%;
+  line-height: 1em;
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content p:hover {
+  background-color: #32A23D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*# sourceMappingURL=dropdown.css.map */

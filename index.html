@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type= "text/css" href="./css/mystyle.css">
+	<link rel="stylesheet" type= "text/css" href="./css/dropdown.css">
+	<script src="./js/jquery-3.5.1.min.js"></script>
+	<script src="./json/movies.json"></script>
+	<script src="./js/myscript.js"></script>
+	<title>Moviefactory</title>
+</head>
+<body>
+	<header>Movie Factory</header>
+	<nav>
+		<a href="./index.html">Home</a>
+		<div id="drop_downs">
+
+			<div class="dropdown">
+				<button class="dropbtn">Color</button>
+				<div class="dropdown-content">
+					<p id="standard_style">Standard</p>
+					<p id="messy_style">Messed Up</p>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">Manage Data</button>
+				<div class="dropdown-content">
+					<p id="sort_descending">Best Ratings first</p>
+					<p id="sort_ascending">Worst Ratings first</p>
+					<p id="random_like">Unsorted Random Like</p>
+					<p id="remove_likes">Remove Likes</p>
+					<p id="save_likes">Save Data to local storage</p>
+					<p id="load_likes">Load Data from local storage</p>
+					<p id="clear_likes">Clear local storage</p>
+				</div>
+			</div>
+
+		</div>
+	</nav>	
+	<h1>Movies</h1>
+	<div id="main_wrapper">
+	<!-- here comes the dynamic content -->
+	</div>
+<footer>Movie Factory</footer>
+</body>
+</html>

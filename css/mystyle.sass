@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+// font-family: 'Open Sans', sans-serif
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+
+
+
+$my_font_family: 'Open Sans', sans-serif
+$my_light_color: #EAEAEA
+$my_bright_light_color: #FFFFFF
+$my_like_color: #32A23D
+$my_footer_background_color: #0F0F0F
+$my_movie_background_color: #181818
+$my_header_background_color: #000000
+$my_navbar_color: #454545
+$my_main_background_color: #1D2329
+
+*
+	margin: 0
+	padding: 0
+	font-family: $my_font_family
+	font-weight: 400
+
+body
+	background-color: $my_main_background_color
+	
+header
+	font-size: 3.5em
+	color: $my_bright_light_color
+	background-color: $my_header_background_color
+	width: 100%
+	text-align: center
+	height: auto
+	padding: 0.5vw 0 1vw 0
+
+nav
+	position: sticky
+	display: flex
+	justify-content: space-between
+	align-items: center
+	top: 0
+	font-size: 2em
+	background-color: $my_navbar_color
+	width: 100%
+	height: auto
+	padding-bottom: 0.2em
+	
+	a
+		margin: 0 0 0 2vw
+		font-weight: 700
+		text-decoration: none
+		color: $my_light_color
+
+h1
+	font-size: 2.5em
+	color: $my_light_color
+	text-align: center
+	margin: 2vw 0 3vw 0
+	
+#main_wrapper
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap
+	
+footer
+	font-size: 3em
+	color: $my_bright_light_color
+	background-color: $my_footer_background_color
+	width: 100%
+	text-align: center
+	height: auto
+	padding: 0.5em 0 0.5em 0
+	margin-top: 5vw
+
+.movie_wrapper
+	width: 40%
+	background-color: $my_movie_background_color
+	max-width: 500px
+	min-width: 350px
+	display: flex
+	margin-bottom: 2vw
+	
+.movie_picture
+	img
+		width: 100%
+		border-radius: 3%
+		border: $my_light_color solid 0.1vw
+
+.movie_text
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	width: 70%
+	margin: 0.8vw 0.8vw 0 1.5vw
+
+.movie_name
+	p
+		color: $my_light_color
+		font-weight: 700
+		font-size: 1em
+	margin-bottom: 1vw
+
+.movie_description
+	p
+		color: $my_light_color
+		font-weight: 400
+		font-size: 0.7em
+
+.fa 
+	font-size: 1.5em
+
+.like_area
+	color: $my_like_color
+	display: flex
+	flex-direction: row
+	// align-items: center
+	justify-content: flex-end
+		
+.likes
+	text-align: center
+	margin-left: 0.5vw
+	font-size: 1.5em
+	color: $my_bright_light_color
+	width: 1.8em
+	height: 1.8em
+	border-radius: 50%
+	background-color: $my_like_color
+	line-height: 1.7em
+	margin-bottom: 1vw
+	
+.like_line
+	margin: 0.5em 0.5em 0 0
+
+.dis_like_line
+	margin: 0.5em 3em 0 0
+
+#drop_downs
+	display: flex
+	flex-direction: row
+
+
+@media (max-width: 600px)
+	nav
+		font-size: 1em
+		justify-content: center
+		a
+			margin: 0 5vw 0 2vw
+
+
+
+
+
